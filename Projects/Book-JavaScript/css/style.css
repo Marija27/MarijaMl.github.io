@@ -1,0 +1,317 @@
+html, body{
+	margin: 0;
+	padding:0;
+overflow-x: hidden;
+	
+}
+
+
+#container{
+ 	padding: 50px 0px;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+		background-color: rgba(0,0,0,0.9);
+
+
+
+/*	background: linear-gradient(to bottom, rgba(0,0,0,0.9) 90%,rgba(0,0,0,0.4) 100%), url(../img/texture21.jpeg) repeat 0 0;*/
+
+
+}
+.quiz-wrap{
+	box-shadow: 0 4px 8px 0 rgba(255, 255, 2555, 0.2), 0 6px 20px 0 rgba(255, 2555, 255, 0.19);
+	width: 80%;
+		background: linear-gradient(to bottom, rgba(0,0,0,0.3) 90%,rgba(0,0,0,0.4) 100%), url(../img/texture21.jpeg) repeat 0 0;
+	margin: 0 auto;
+	margin-top: 50px;
+	height: 700vh;
+}
+
+.logo{
+	color:white;
+	text-align: center;
+}
+
+.border-menu{
+		
+		width: 40%;
+		text-align: center;
+		
+		margin: 0 auto;
+}
+
+.main-menu{
+	text-align: center;
+	font-size: 16px;
+
+
+
+}
+.main-menu li{
+		display: inline;
+		padding: 20px;
+		color:rgba(255,255,255,0.7);
+		
+}
+
+.main-menu a{
+	text-decoration: none;
+	text-transform: uppercase;
+	border-right: 1px solid rgba(255,255,255,0.2);
+
+
+}
+.main-menu li:hover{
+	color: #d1db1e;
+}
+#quote{
+	color: #fff;
+	line-height: 50px;
+	font-size:20px;
+	padding: 70px;
+}
+.findFavBooks{
+	font-size: 20px;
+	padding:40px;
+	color: rgba(255,255,255,0.7);
+    text-transform: uppercase;
+}
+
+ input{
+ 	margin-top:0px;
+ 	padding: 15px 150px;
+ 	background-color: transparent;
+ 	border-radius:5px;
+ 	border: 2px solid #d1db1e;
+ 	text-align: center;
+ 	color:white;
+ }
+
+/*#wrap{
+	width: 70%;
+	margin: 0 auto;
+}*/
+
+#button{
+	background-color: #b6bf11;
+	border-radius: 5px;
+	padding: 12px 60px;
+	border:none;
+	color: #fff;
+	font-size: 14px;
+	width: 20%;
+	text-transform: uppercase;
+}
+
+#book-img{
+	height: 250px;
+	
+
+}
+
+#title{
+
+	font-size: 16px;
+	color: #dbbf0a;
+	text-transform: uppercase;
+	display: block
+	padding:50px;
+}
+
+
+#author{
+	font-size: 20px;
+	color: #b2830a;
+	text-transform: uppercase;	
+	display: block;
+
+}
+
+#description{
+	color:  #f9f198;
+	font-size: 15px;
+	font-weight: normal;
+	padding: 50px;
+	line-height: 30px;
+	word-wrap: break-word;
+}
+
+#imagebutton, #buttonQuiz{
+	background-color: #b6bf11;
+	border-radius: 40px;
+	padding: 8px 50px;
+	border:none;
+	color: #fff;
+	display: block;
+	text-align: center;
+	margin: 20px auto;
+	font-size: 18px;
+	text-transform: uppercase;
+	box-shadow: 5px 4px 10px  rgba(0,0,0, 0.3) ;
+
+
+}
+
+#emptySearch{
+	color: #fff;
+	font-size: 20px;
+}
+a{
+	text-decoration: none;
+}
+
+
+
+/*QUIZ*/
+#quizLink{
+	
+	font-weight: normal;
+	padding: 40px;
+	font-size: 25px;
+	margin-right: -40px;
+}
+
+#quizLink a:hover{
+	background-color: #dbbf0a;
+	color:#fff;
+
+}
+
+#quizLink a, #goBack{
+	color: #fff;
+	margin-left: -40px;
+	text-align: center;
+	border: 1px solid yellow;
+	border-radius: 5px;
+	padding: 10px 50px;
+}
+
+#quiz{
+	color:#cad106;
+	font-size: 15px;
+	line-height: 38px;
+	text-transform: uppercase;
+}
+
+#quizTitle{
+	color: #dbbf0a;
+	text-transform: uppercase;
+	font-size: 30px;
+	padding: 40px;
+}
+
+.questions{
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 4px;
+	margin-top: 20px;
+	color:#dbbf0a;
+}
+
+
+#message{
+	font-size: 26px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #dbbf0a;
+}
+
+footer > div , #goBack{
+	font-size: 20px;
+}
+
+.madeBy{
+	
+	font-size: 14px;
+	color: rgba(255,255,255,0.7);
+	margin: 20px 500px;
+}
+#map{
+	height: 300px;
+	text-align: center;
+	margin: 0 auto ;
+	padding: 0;
+	width: 40%;
+	background-color: grey;
+
+
+}
+
+
+#bookStores{
+	/*float:right;
+position: relative;
+right: 100px;
+bottom: 300px;*/
+font-size: 25px;
+color: rgba(255,255,255,0.9);
+font-weight: bold;
+margin-top:80px;
+
+}
+
+/*SLIDER*/
+
+#slider, .slide-position {
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+  height: 500px;
+}
+
+.slider-wrap {
+  position: relative;
+}
+
+.image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image1 {
+  background-image: url('../img/book-slider-1.jpg');
+}
+.image2 {
+  background-image: url('../img/book-slider2.jpg');
+}
+.image3 {
+  background-image: url("../img/book-slider3.jpeg");
+}
+
+.image4 {
+  background-image: url("../img/book-slider4.jpeg");
+}
+
+.image5 {
+  background-image: url("../img/book-slider5.jpeg");
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  bottom: 15%;
+/*  margin-top: 35px;*/
+  width: 0;
+  height: 0;
+
+  border-style: solid;
+}
+
+#arrowLeft {
+  border-width: 20px 30px 20px 0;
+  border-color: transparent #fff transparent transparent;
+  left: 120px;
+  opacity: 0.6;
+  margin-left: 50px;
+
+}
+
+#arrowRight {
+  border-width: 20px 0  20px 30px;
+  border-color: transparent transparent transparent #fff;
+  right: 120px;
+  margin-right: 50px;
+   opacity: 0.6;
+}
